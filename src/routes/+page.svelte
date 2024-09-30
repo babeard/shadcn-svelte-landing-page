@@ -1,4 +1,6 @@
 <script>
+	import { base } from '$app/paths';
+
 	import About from '$lib/components/About.svelte';
 	import Cta from '$lib/components/Cta.svelte';
 	import Features from '$lib/components/Features.svelte';
@@ -25,7 +27,7 @@
 	<meta property="og:url" content="https://github.com/babeard/shadcn-svelte-landing-page.git" />
 	<meta property="og:title" content="Shadcn/Svelte - Landing template" />
 	<meta property="og:description" content="Free Shadcn landing page for Svelte developers" />
-	<meta property="og:image" content="/meta-preview.jpg" />
+	<meta property="og:image" content="{base}/meta-preview.jpg" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
@@ -33,7 +35,7 @@
 	<meta name="twitter:url" content="https://github.com/babeard/shadcn-svelte-landing-page.git" />
 	<meta name="twitter:title" content="Shadcn/Svelte - Landing template" />
 	<meta name="twitter:description" content="Free Shadcn landing page for Svelte developers" />
-	<meta name="twitter:image" content="/meta-preview.jpg" />
+	<meta name="twitter:image" content="{base}/meta-preview.jpg" />
 </svelte:head>
 
 <Navbar />

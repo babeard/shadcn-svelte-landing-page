@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { Badge } from '$lib/components/ui/badge';
 	import * as Card from '$lib/components/ui/card';
 
@@ -13,19 +14,19 @@
 			title: 'Responsive Design',
 			description:
 				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.',
-			image: '/looking-ahead.png'
+			image: `${base}/looking-ahead.png`
 		},
 		{
 			title: 'Intuitive user interface',
 			description:
 				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.',
-			image: '/reflecting.png'
+			image: `${base}/reflecting.png`
 		},
 		{
 			title: 'AI-Powered insights',
 			description:
 				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.',
-			image: '/growth.png'
+			image: `${base}/growth.png`
 		}
 	];
 

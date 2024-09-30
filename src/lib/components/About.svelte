@@ -1,11 +1,12 @@
 <script>
+	import { base } from '$app/paths';
 	import Statistics from './Statistics.svelte';
 </script>
 
 <section id="about" class="container py-24 sm:py-32">
 	<div class="rounded-lg border bg-muted/50 py-12">
 		<div class="flex flex-col-reverse gap-8 px-6 md:flex-row md:gap-12">
-			<img src="/pilot.png" alt="" class="w-[300px] rounded-lg object-contain" />
+			<img src="{base}/pilot.png" alt="" class="w-[300px] rounded-lg object-contain" />
 			<div class="bg-green-0 flex flex-col justify-between">
 				<div class="pb-6">
 					<h2 class="text-3xl font-bold md:text-4xl">

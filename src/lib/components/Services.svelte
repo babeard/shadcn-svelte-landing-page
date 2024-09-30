@@ -1,10 +1,11 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import * as Card from '$lib/components/ui/card';
 
 	import { ChartIcon, WalletIcon, MagnifierIcon } from './icons';
 	import type { Component } from 'svelte';
 
-	const cubeLeg = '/cube-leg.png';
+	const cubeLeg = `${base}/cube-leg.png`;
 
 	interface ServiceProps {
 		title: string;

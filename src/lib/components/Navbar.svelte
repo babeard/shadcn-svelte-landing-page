@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import * as Sheet from '$lib/components/ui/sheet/index.js';
 	import { Button } from '$lib/components/ui/button/index.js';
 
@@ -48,7 +49,7 @@
 	<div class="mx-auto">
 		<div class="container flex h-14 w-screen items-center justify-between px-4">
 			<div class="flex font-bold">
-				<a rel="noreferrer noopener" href="/" class="ml-2 flex text-xl font-bold">
+				<a rel="noreferrer noopener" href="{base}/" class="ml-2 flex text-xl font-bold">
 					<LogoIcon />
 					ShadcnUI/Svelte
 				</a>
