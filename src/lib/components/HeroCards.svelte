@@ -95,7 +95,7 @@
 
 	<!-- {/* Pricing */} -->
 	<Card.Root
-		class="absolute left-[50px] top-[150px] w-72  shadow-black/10 drop-shadow-xl dark:shadow-white/10"
+		class="absolute left-[50px] top-[170px] w-72  shadow-black/10 drop-shadow-xl dark:shadow-white/10"
 	>
 		<Card.Header>
 			<Card.Title class="item-center flex justify-between">

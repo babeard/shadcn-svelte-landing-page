@@ -52,7 +52,7 @@
 			<div class="flex flex-col gap-8">
 				{#each serviceList as { icon, title, description }}
 					<Card.Root>
-						<Card.Header class="flex items-start justify-start gap-4 space-y-1 md:flex-row">
+						<Card.Header class="mb-6 flex items-start justify-start gap-4 space-y-1 md:flex-row">
 							<div class="mt-1 rounded-2xl bg-primary/20 p-1">
 								<svelte:component this={icon} />
 							</div>
