@@ -20,7 +20,7 @@
 			for{' '}
 			<h2 class="inline">
 				<span
-					class="inline bg-gradient-to-r from-[#d74603] to-[#aa1e1e] bg-clip-text text-transparent"
+					class="inline bg-gradient-to-r from-[#d74603] to-[#d77403] bg-clip-text text-transparent"
 				>
 					Svelte
 				</span>{' '}
